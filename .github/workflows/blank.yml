@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    runs-on: [ubuntu-latest, uts-2core]
+    runs-on: [ubuntu-latest, uts-2-core]
 
     steps:
       - uses: actions/checkout@v4
