@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    runs-on: [uts-2-core]
+    runs-on: self-hosted
 
     steps:
       - uses: actions/checkout@v4
